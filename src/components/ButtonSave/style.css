@@ -1,0 +1,39 @@
+.btn-green-tr{
+	min-width: 130px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase; 
+	padding: 15px;
+	margin: 30px 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	transition: 0.5s;
+}
+
+
+.btn-green-tr:before {
+	position: absolute;
+	content:"";
+	border-top: 5px solid lighten(green, 5%);
+	border-left: 5px solid lighten(green, 5%);	
+	border-right: 5px solid darken(green, 5%);
+	border-bottom: 5px solid darken(green, 5%);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;	
+  transition: 0.5s;
+
+}
+
+.btn-green-tr:hover {
+	box-shadow: 7px 7px darken(green, 20%), -7px -7px lighten(green, 20%);
+	cursor: pointer;
+}
+
+
+.btn-green-tr:hover::before{
+    border: 0px ;
+}

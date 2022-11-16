@@ -1,0 +1,32 @@
+#container-information-board {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#information-board {
+    background-color: #4562a1;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#container-head{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn-edit-info{
+    background-color: transparent;
+    width: 30px;
+    outline: none;
+    border: none;
+    margin: 15px;
+}
+
+#btn-edit-info:hover svg{
+    color: #fff;
+}
+
